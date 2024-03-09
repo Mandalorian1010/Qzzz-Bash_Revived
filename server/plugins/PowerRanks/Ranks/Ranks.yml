@@ -1,0 +1,56 @@
+Groups:
+ OG:
+    worlds:
+      world: true
+      world_nether: true
+      world_the_end: true
+    permissions: '[]'
+    interance: '[]'
+    prefix: '[&5OG]'
+    chatColor: purple
+  Serf:
+    worlds:
+      world: true
+      world_nether: true
+      world_the_end: true
+    permissions: '[]'
+    interance: '[]'
+    prefix: '[&7Serf]'
+    chatColor: gray
+  Lord:
+    worlds:
+      world: true
+      world_nether: true
+      world_the_end: true
+    permissions: '[]'
+    interance: '[]'
+    prefix: '[&bLord]'
+    chatColor: white
+  Moderator:
+    worlds:
+      world: true
+      world_nether: true
+      world_the_end: true
+    permissions: '[]'
+    interance: '[]'
+    prefix: '[Moderator]'
+    chatColor: blue
+  Admin:
+    worlds:
+      world: true
+      world_nether: true
+      world_the_end: true
+    permissions: '[]'
+    interance: '[]'
+    prefix: '[Admin]'
+    chatColor: red
+  Owner:
+    worlds:
+      world: true
+      world_nether: true
+      world_the_end: true
+    permissions: '[]'
+    interance: '[]'
+    prefix: '[Owner]'
+    chatColor: green
+Default: Serf

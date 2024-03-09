@@ -1,0 +1,82 @@
+Kits:
+  Start:
+    Items:
+      '1':
+        nbt:
+        - RepairCost;1;int
+        id: STONE_SWORD
+        amount: '1'
+        name: Starter Sword
+        unbreakable: 'false'
+      '2':
+        nbt:
+        - RepairCost;1;int
+        id: STONE_AXE
+        amount: '1'
+        name: Starter Axe
+        unbreakable: 'false'
+      '3':
+        nbt:
+        - RepairCost;1;int
+        id: STONE_PICKAXE
+        amount: '1'
+        name: Starter Pickaxe
+        unbreakable: 'false'
+      '4':
+        nbt:
+        - RepairCost;1;int
+        id: STONE_SPADE
+        amount: '1'
+        name: Starter Shovel
+        unbreakable: 'false'
+      '5':
+        nbt:
+        - RepairCost;1;int
+        id: STONE_HOE
+        amount: '1'
+        name: Starter Hoe
+        unbreakable: 'false'
+      '6':
+        nbt:
+        - RepairCost;1;int
+        id: GOLD_SPADE
+        amount: '1'
+        name: Claim Shovel
+        unbreakable: 'false'
+      '7':
+        book-author: Mandalorian
+        book-title: Rules
+        book-pages:
+        - |-
+          1. No racism.§0
+          §0
+          §02. No harrasment.§0
+          §0
+          §03. Use common sense§0
+          §0
+          §04. Always listen to Moderators, Admins And the Owner§0
+          §0
+          §05. You are allowed to swear. But not insult.§0
+          §0-ALL OF THESE WILL RESULT IN BAN/MUTE-
+        id: WRITTEN_BOOK
+        amount: '1'
+        unbreakable: 'false'
+    slot: 1
+    display_item: IRON_SWORD
+    display_name: Starter Kit
+    display_lore:
+    - '&7This is a description of the kit.'
+    - '&7You can add multiples &alines&7.'
+    cooldown: 3600
+    permission: playerkits.kit.Start
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&lStart &aKit'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+    first_join: true
+    one_time: true
+    Commands:
+    - say Welcome %player%!
+    display_item_glowing: false
